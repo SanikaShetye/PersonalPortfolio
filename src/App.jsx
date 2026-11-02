@@ -93,7 +93,7 @@ function App() {
           <div className="hero-content">
             <p className="eyebrow">
               <span className="gold-dot"></span>
-              HELLO, I'M SANIKA
+              HELLO, I'M SANIKA SHETYE
             </p>
 
             <h1>
@@ -103,14 +103,6 @@ function App() {
               <br />
               <span>code &amp; creativity.</span>
             </h1>
-
-            <h2 className="hero-role">FULL STACK DEVELOPER</h2>
-
-            <p className="hero-description">
-              I'm an MCA graduate passionate about building responsive web
-              applications and practical digital solutions using React,
-              JavaScript, Node.js, and databases.
-            </p>
 
             <div className="hero-actions">
               <a href="#projects" className="primary-button">
@@ -145,7 +137,7 @@ function App() {
                 </a>
 
                 <a
-                  href="mailto:sanika.shetye26@gmail.com"
+                  href="mailto:sanikashetye63@gmail.com"
                   aria-label="Email"
                 >
                   <Mail size={22} />

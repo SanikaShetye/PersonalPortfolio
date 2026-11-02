@@ -989,3 +989,62 @@ main {
     animation-duration: 0.01ms !important;
   }
 }
+/* ========================================
+   EXTRA MOBILE OPTIMIZATION
+======================================== */
+
+@media (max-width: 700px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .section-container {
+    width: calc(100% - 36px);
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero h1 {
+    overflow-wrap: break-word;
+  }
+
+  .hero-actions {
+    width: 100%;
+  }
+
+  .hero-visual {
+    overflow: hidden;
+  }
+
+  .skills-grid,
+  .projects-grid {
+    width: 100%;
+  }
+
+  .contact-section {
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .site-footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .hero h1 {
+    font-size: clamp(34px, 10vw, 39px);
+  }
+
+  .section-title {
+    font-size: 29px;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+}
